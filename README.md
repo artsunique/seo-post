@@ -1,4 +1,4 @@
-# Quick SEO Text Generator
+# Quick SEO Text Generator (Free Version)
 
 ## Introduction
 
