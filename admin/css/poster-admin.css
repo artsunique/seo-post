@@ -1,0 +1,46 @@
+.poster-form-container {
+    background-color: #f1f1f1 !important;
+    padding: 6rem;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+}
+
+.poster-form-container h1 {
+    color: #333;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.poster-form-container h2 {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 4px;
+    padding-bottom: 0;
+}
+
+.poster-form-container input[type="text"],
+.poster-form-container select,
+.poster-form-container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 2px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.poster-form-container input[type="submit"] {
+    background-color: #007cba;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.poster-form-container input[type="submit"]:hover {
+    background-color: #005f8d;
+}
