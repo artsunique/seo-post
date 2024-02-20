@@ -4,6 +4,8 @@
 
 Welcome to **Quick SEO Text Generator**, a state-of-the-art WordPress plugin designed to revolutionize your content creation process. Ideal for bloggers, content creators, and website administrators, this plugin simplifies the task of creating SEO-optimized posts.
 
+![SEO](seo.webp)
+
 ## Notes
 
 Works only with Custom Post Types using classic WP Editor.
