@@ -7,7 +7,7 @@ Welcome to **Quick SEO Text Generator**, a state-of-the-art WordPress plugin des
 ## Notes
 
 Works only with Custom Post Types using classic WP Editor.
-If you need a Gutenberg Block solution, please contact us.
+If you need a Gutenberg Block solution, please contact us at [info@artsunique.de](mailto:info@artsunique.de).
 
 ## Features
 
@@ -30,6 +30,12 @@ If you need a Gutenberg Block solution, please contact us.
 2. **Create New Posts**: Enter details like post titles, content, and images.
 3. **Customize Settings**: Choose post types, templates, and configure SEO settings.
 4. **Publish or Schedule**: Publish immediately or schedule for later.
+
+## Usage Terms
+
+The use of Quick SEO Text Generator is permitted exclusively for non-commercial purposes. Use of the plugin for commercial purposes, especially by web design, marketing, and SEO agencies, or similar services in the commercial sector, without prior written consent from Arts Unique is not allowed. This includes, but is not limited to, using the plugin for client projects, creating derivative works, or using the plugin in a commercial product or service.
+
+For inquiries regarding commercial use or partnerships, please contact us at [info@artsunique.de](mailto:info@artsunique.de).
 
 ## Why Choose Quick SEO Text Generator?
 
