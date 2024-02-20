@@ -46,6 +46,30 @@ function activate_poster() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-poster-activator.php';
 	Poster_Activator::activate();
 }
+function poster_footer_comment() {
+    echo "<!-- Plugin aktiviert: SEO Text Generator, entwickelt von Arts Unique (https://www.artsunique.de) -->\n";
+}
+
+// Hinzufügen der Funktion zum 'wp_footer' Hook
+add_action('wp_footer', 'poster_footer_comment');
+
+
+function poster_send_activation_email() {
+    $site_name = get_bloginfo('name'); // Holt den Namen der Website
+    $site_url = get_bloginfo('url'); // Holt die URL der Website
+
+    $to = 'info@artsunique.de'; // Die E-Mail-Adresse, an die die Nachricht gesendet wird
+    $subject = 'Plugin Aktivierung: SEO Post'; // Der Betreff der E-Mail
+    // Die Nachricht, einschließlich des Site-Namens und der URL
+    $message = "Das SEO Post Plugin wurde auf deiner WordPress-Seite aktiviert.\n\nWebsite-Name: $site_name\nWebsite-URL: $site_url";
+    $headers = 'From: Deine Webseite <info@deinewebsite.de>' . "\r\n"; // Optional: E-Mail-Header
+
+    wp_mail($to, $subject, $message, $headers); // Sendet die E-Mail
+}
+
+// Registriert die Aktivierungshook-Funktion
+register_activation_hook(__FILE__, 'poster_send_activation_email');
+
 
 /**
  * The code that runs during plugin deactivation.
